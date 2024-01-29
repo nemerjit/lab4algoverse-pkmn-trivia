@@ -1,0 +1,24 @@
+.center-text {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#start-game-link {
+    text-decoration: none;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.center-content-div {
+    display: flex;
+    justify-content: center;
+}

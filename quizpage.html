@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+<body onload="pageLoad()">
+    <h1 id="question-number" class="center-text">Quiz Question 1</h1>
+    <h3 class="center-text">Who is this Pokemon?</h3>
+    <img id="pkmn-img" src="" class="center-button">
+    <form onsubmit="runApp(); return false;">
+        <div class="center-content-div">
+            <input type="radio" id="a1" name="answer-choice">
+            <label id="a1-label" for="a1"></label>
+        </div>
+        <div class="center-content-div">
+            <input type="radio" id="a2" name="answer-choice" >
+            <label id="a2-label" for="a2"></label>
+        </div>
+        <div class="center-content-div">
+            <input type="radio" id="a3" name="answer-choice">
+            <label id="a3-label" for="a3"></label>
+        </div>
+        <div class="center-content-div">
+            <input type="radio" id="a4" name="answer-choice">
+            <label id="a4-label" for="a4"></label>
+        </div>
+        <button id="submit-btn" class="center-button">Submit</button>
+    </form>
+</body>
+</html>
